@@ -1,0 +1,11 @@
+<!-- Componente presentacional -->
+<div class="container d-flex container-height">
+  <div class="m-auto text-center">
+    The weather in {{ country }} is 
+    @if (mainWeather === 'Clear') {
+        <h4>☀️</h4>
+    } @else {
+        <h4>☁️</h4>
+    }
+  </div>
+</div>
